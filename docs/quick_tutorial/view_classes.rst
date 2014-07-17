@@ -85,8 +85,8 @@ To ease the transition to view classes, we didn't introduce any new
 functionality. We simply changed the view functions to methods on a
 view class, then updated the tests.
 
-In our ``TutorialViews`` view class you can see that our two view
-classes are logically grouped together as methods on a common class.
+In our ``TutorialViews`` view class you can see that our two views
+are logically grouped together as methods on a common class.
 Since the two views shared the same template, we could move that to a
 ``@view_defaults`` decorator on at the class level.
 
