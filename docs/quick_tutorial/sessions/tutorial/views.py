@@ -19,7 +19,6 @@ class TutorialViews:
 
         return session['counter']
 
-
     @view_config(route_name='home')
     def home(self):
         return {'name': 'Home View'}
