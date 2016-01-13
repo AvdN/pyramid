@@ -18,6 +18,7 @@ class TutorialViewTests(unittest.TestCase):
         response = inst.home()
         self.assertEqual('Home View', response['page_title'])
 
+
 class TutorialFunctionalTests(unittest.TestCase):
     def setUp(self):
         from tutorial import main
