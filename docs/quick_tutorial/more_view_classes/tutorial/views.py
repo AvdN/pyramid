@@ -35,5 +35,5 @@ class TutorialViews(object):
     @view_config(request_method='POST', request_param='form.delete',
                  renderer='delete.pt')
     def delete(self):
-        print ('Deleted')
+        print('Deleted')
         return {'page_title': 'Delete View'}
